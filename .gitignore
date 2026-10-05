@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+api/node_modules/
+client/node_modules/
+packages/*/node_modules/
+.node_modules-*
+
+# Logs and Data
+logs/
+*.log
+data/
+uploads/
+client/public/images/
+meili_data/
+data.ms/
+
+# Build and Output
+dist/
+build/
+.turbo/
+.cache/
+.DS_Store
+
+# Environment and Secrets
+.env*
+*.secrets
+my.secrets
+!**/.env.example
+
+# IDE and Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS Files
+Thumbs.db
